@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url(img/piqsels.com-id-zfonu.jpg); */
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+   font-family: Arial;
+    font-size: 84px;
+}
+
+.title {
+    text-transform: uppercase;
+    margin: 200px auto 0 auto;
+    text-align: center;
+    color: rgba(255,255,255,0.2);
+    background: url(img/fir-burn.jpg) repeat-x;
+    -webkit-background-clip: text;
+    background-size: contain;
+    animation: fire 15s linear infinite;
+}
+
+@keyframes fire {
+    0% {
+        background-position: left 0 top 25px;
+    }
+    50% {
+        background-position: left 130px top -35px;
+    }
+    100% {
+        background-position: left 250px top 0px;
+    }
+}
